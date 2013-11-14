@@ -1,0 +1,13 @@
+服务器版本：commit c7c07355c83e1ab6d85ed1fcf3d164bc1b4c6894
+			Author: qichunren <whyruby@gmail.com>
+			Date:   Tue Nov 12 18:40:30 2013 +0800
+
+
+f4908713	话筒7803(老的)
+话筒昨晚临时文件播放，但在早上连接状态和绑定状态都变成灰色。查看ruby发现没有thin服务。
+
+client版本：version: 20131111.2251GIT79358910f2612ecfde3cca69a78473669621fb8b
+			released_at: 2013-11-11/22:51:11
+			hash: 79358910f2612ecfde3cca69a78473669621fb8b
+linphone版本：GIT_VERSION: a72de0ec410a0e00281b112b3f4aa8d53a1a0afe
+话筒昨晚临时文件播放，但在早上连接状态和绑定状态都变成灰色。查看ruby发现没有thin服务。
