@@ -3,11 +3,21 @@
 			Date:   Tue Nov 12 18:40:30 2013 +0800
 
 
-f4908713	话筒7803(老的)
+sn码：f4908713	
 话筒昨晚临时文件播放，但在早上连接状态和绑定状态都变成灰色。查看ruby发现没有thin服务。
+linphone版本：a72de0ec410a0e00281b112b3f4aa8d53a1a0afe
+client版本：20131111.2251GIT79358910f2612ecfde3cca69a78473669621fb8b
 
-client版本：version: 20131111.2251GIT79358910f2612ecfde3cca69a78473669621fb8b
-			released_at: 2013-11-11/22:51:11
-			hash: 79358910f2612ecfde3cca69a78473669621fb8b
-linphone版本：GIT_VERSION: a72de0ec410a0e00281b112b3f4aa8d53a1a0afe
-话筒昨晚临时文件播放，但在早上连接状态和绑定状态都变成灰色。查看ruby发现没有thin服务。
+
+
+sn码：00000005	
+程序崩溃了，网络ping不同，但灯的闪烁情况是正常的。
+linphone版本：7ab21bf3094ba1f62959fa1a2e4d905bc19154b1
+client版本：20131112.2041GITf87ad23889e6f4700ffe0f04ec2815230b42a999"
+
+
+sn码：f2494470	
+多次重启后连接状态和绑定状态就变成灰色，屏幕变黑屏了。linphone版本：b22d5dd0beed59d8561359e4d8d0206b3da7daceclient版本：20131111.2251GIT79358910f2612ecfde3cca69a78473669621fb8b
+
+
+
