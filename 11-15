@@ -1,0 +1,9 @@
+服务器版本：commit 701156a0ee30842c98e4ffea1bb9bb76b2063b67
+		   Date:   Wed Nov 13 20:19:11 2013 +0800 
+
+1.早上8：00来到的时候有十来个终端掉线，原因不详。
+
+sn码：f5369250
+连接状态和绑定状态皆为灰色，用ps aux|grep thin查看发现ruby挂了
+linphone版本：eb5407da9692b82fddb894280c446b405725bca7
+client版本：20131113.2040GIT3169fc7041ce4ec61026184417f436c61c411f38
