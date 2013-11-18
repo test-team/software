@@ -1,0 +1,20 @@
+17服务器版本：commit 4ac77af4c96c53f24a9a561df53053bc9b551be2
+			Date:   Sat Nov 16 16:37:54 2013 +0800
+
+
+sn码：00000034
+查看linphone和ruby正常，但连接状态和绑定状态都为灰色，
+client版本：20131115.1029GIT28823ce9c8e804845eea23f7de77120cdaa4ae5c
+linphpone版本：9d60b32c2fc0cf28c7e71c88a751f1b32774584f
+
+
+sn码：f5035267
+连接状态和绑定状态都为灰色。查看情况如下：
+root@ITC:~# ps aux|grep linphone
+root      1948  0.0  0.2   2488   696 ?        S    Nov17   0:00 /usr/bin/xinit /etc/linphone_xinitrc
+root      2068  6.4 10.2 213208 26024 ?        Sl   Nov17  62:35 linphonec --luna-ui --pipe --disable_cmd
+root     24779  0.0  0.2   3104   620 pts/0    S+   09:00   0:00 grep linphone
+root@ITC:~# ps aux|grep thin
+root     24781  0.0  0.2   3104   616 pts/0    S+   09:00   0:00 grep thin
+client版本：20131115.1029GIT28823ce9c8e804845eea23f7de77120cdaa4ae5c
+linphone版本：9d60b32c2fc0cf28c7e71c88a751f1b32774584f

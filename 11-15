@@ -7,3 +7,10 @@ sn码：f5369250
 连接状态和绑定状态皆为灰色，用ps aux|grep thin查看发现ruby挂了
 linphone版本：eb5407da9692b82fddb894280c446b405725bca7
 client版本：20131113.2040GIT3169fc7041ce4ec61026184417f436c61c411f38
+
+
+下午服务器有更新：
+服务器版本：commit bdbaf4e721dd7954198c9b45872ad55c7a290461
+			Date: Fri Nov 15 11:23:56 2013 +0800
+
+有一些终端开机后ruby不能自动启动，时间为17：00左右

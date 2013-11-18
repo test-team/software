@@ -1,0 +1,16 @@
+17服务器版本：commit ec1254404d737244b7b086c1a8e8a21ba52da43b
+			Date:   Fri Nov 15 18:54:35 2013 +0800
+
+
+终端全部绿灯灭，红灯常亮，但红灯亮的很暗，几乎看不到。
+有十几台终端掉线，原因不详
+
+
+sn码：f5369250
+早上过来时ruby挂了
+client版本：20131115.1029GIT28823ce9c8e804845eea23f7de77120cdaa4ae5c
+linphone版本：GIT_VERSION: 9d60b32c2fc0cf28c7e71c88a751f1b32774584f
+
+sn码：f4908713
+client版本：20131113.2040GIT3169fc7041ce4ec61026184417f436c61c411f38
+linphone版本:eb5407da9692b82fddb894280c446b405725bca7
