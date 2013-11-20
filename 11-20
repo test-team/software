@@ -1,0 +1,33 @@
+服务器版本：mmit 893d92512ec23edcdfe7a2a01958e85b9974d1c9
+            Date:   Mon Nov 18 21:14:20 2013 +0800
+
+
+
+sn码：
+绑定状态变为灰色。查看状态如下：
+root@ITC:~# ps aux|grep linphone
+root      1910  0.0  0.2   2488   696 ?        S    Nov19   0:00 /usr/bin/xinit /etc/linphone_xinitrc
+root      1948  6.7  8.1 200804 20560 ?        Sl   Nov19  38:37 linphonec --luna-ui --pipe --disable_cmd
+root     19798  0.0  0.2   3104   620 pts/1    S+   08:18   0:00 grep linphone
+root@ITC:~# ps aux|grep thin
+root      1994  2.6 17.4  56748 44296 ?        SNl  Nov19  15:08 thin server (0.0.0.0:80)                                                                                                                                                                                                                                                                                       
+root     19816  0.0  0.2   3104   616 pts/1    S+   08:19   0:00 grep thin
+linphone版本：3c75569734404594fba4703bf3c56c5a2b3eeada
+client版本：20131117.1414GIT22ccf8dd014160bca0327da51d80b61d92ba0431
+
+
+sn码：f5035267 (7寸屏)
+有时候触摸反应很慢，查看cpu时cpu使用15%左右
+client版本：20131117.1414GIT22ccf8dd014160bca0327da51d80b61d92ba0431
+linphone版本：3c75569734404594fba4703bf3c56c5a2b3eeada
+
+
+
+
+
+
+
+
+
+
+
