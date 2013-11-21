@@ -1,0 +1,31 @@
+服务器版本：commit 893d92512ec23edcdfe7a2a01958e85b9974d1c9
+			Date:   Mon Nov 18 21:14:20 2013 +0800
+
+
+
+sn码：f5035267 （T-7802U）
+昨晚发起对讲，早上来的时候连接状态和绑定状态变成灰色。ssh进去查看如下
+root@ITC:~# ps aux|grep linphone
+root      1787  0.0  0.2   2488   696 ?        S    Nov20   0:00 /usr/bin/xinit /etc/linphone_xinitrc
+root      1826  9.5  9.0 227096 22852 ?        Sl   Nov20  72:25 linphonec --luna-ui --pipe --disable_cmd
+root     24829  0.0  0.2   3104   620 pts/0    S+   08:18   0:00 grep linphone
+root@ITC:~# ps aux|grep thin
+root     24831  0.0  0.2   3104   616 pts/0    S+   08:18   0:00 grep thin
+root@ITC:~# 
+client版本：20131117.1414GIT22ccf8dd014160bca0327da51d80b61d92ba0431
+linphone版本：3c75569734404594fba4703bf3c56c5a2b3eeada
+
+
+
+sn码：f4908713 （T-7202）
+无任何动作，连接状态和绑定状态都变为灰色。ssh进去查看如下
+root@ITC:~# ps aux|grep lilnphone
+root      7874  0.0  0.2   3104   620 pts/0    S+   08:25   0:00 grep lilnphone
+root@ITC:~# ps aux|grep thin
+root      7868 79.0  7.6  26048 19432 ?        SNl  08:25   0:07 ruby /usr/local/luna-client/vendor/bundle/ruby/1.9.1/bin/thin start -C /etc/luna/luna-client-thin.yml
+root      7875  0.0  0.1   1368   436 ?        SN   08:25   0:00 sh -c /usr/local/luna-client/vendor/bundle/ruby/1.9.1/bin/thin start --chdir="/usr/local/luna-client" --environment="production" --address="0.0.0.0" --port=80 --timeout=30 --log="/var/lib/luna/log/luna-client.80.log" --pid="/tmp/luna/pids/luna-client.80.pid" --max-conns=1024 --max-persistent-conns=512 --daemonize
+root      7878  0.0  0.0    252   104 ?        RN   08:25   0:00 ruby /usr/local/luna-client/vendor/bundle/ruby/1.9.1/bin/thin start --chdir=/usr/local/luna-client --environment=production --address=0.0.0.0 --port=80 --timeout=30 --log=/var/lib/luna/log/luna-client.80.log --pid=/tmp/luna/pids/luna-client.80.pid --max-conns=1024 --max-persistent-conns=512 --daemonize
+root      7880  0.0  0.2   3104   616 pts/0    S+   08:25   0:00 grep thin
+client版本：20131117.1414GIT22ccf8dd014160bca0327da51d80b61d92ba0431
+linphone版本： 3c75569734404594fba4703bf3c56c5a2b3eeada
+
