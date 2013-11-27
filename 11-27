@@ -1,0 +1,21 @@
+服务器版本：commit 994e42e3a1064fe8a66987b39196169fb29e7179
+            Date:   Tue Nov 26 15:09:00 2013 +0800
+
+有多台终端连接到17服务器上的会出现sn码为00000026的情况。
+
+
+sn码：00000026
+服务器显示连接状态正常，但ssh进去查看如下：
+root@ITC:~# ps aux|grep thin
+root     21327  0.0  0.2   3104   616 pts/0    S+   09:03   0:00 grep thin
+root@ITC:~# ps aux|grep linphone
+root      1932  3.5  4.1 144324 10636 ?        Ssl  Nov26  60:00 linphonec --pipe --disable_cmd
+root     21332  0.0  0.2   3104   620 pts/0    S+   09:03   0:00 grep linphone
+client版本： 20131125.1449GITdf2b30e1e8a0561c848337580c1b7108c37bce52
+linphone版本：7631ec5ad188fc6a47ff900900852ad848aa2adc
+
+
+
+
+
+
