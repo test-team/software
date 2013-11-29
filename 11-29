@@ -1,0 +1,17 @@
+服务器版本：commit 2298dbc33e6f9e89618b8e2699d0eba3d782ccb8
+			Date:   Thu Nov 28 18:55:13 2013 +0800
+
+
+
+client版本：20131127.1209GIT96fef48526c6731547e2bd592bdc9e8276472ed4
+linphone版本：7631ec5ad188fc6a47ff900900852ad848aa2adc
+服务查看时连接状态时灰色，但ssh进去用linphone status register查看结果是：
+root@ITC:/usr/local/luna-client/config# linphonecsh status register
+--- !ruby/object:Response_registeration
+is_succ: true
+msg: ''
+identify: sip:4152@10.0.3.17:5080
+duration: 300
+root@ITC:/usr/local/luna-c
+
+终端sn码：00000232,00000095,00000380,00000176
